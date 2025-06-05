@@ -9,7 +9,7 @@ interface TokenPayLoad{
     sub: string
 }
 
-function ensureAuth(request: Request, response: Response, next: NextFunction){
+export function ensureAuth(request: Request, response: Response, next: NextFunction){
     const authHeader = request.headers.authorization
 
     if(!authHeader){
