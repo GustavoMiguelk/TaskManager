@@ -1,0 +1,22 @@
+{
+  "name": "taskmanager",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx --watch src/server.ts"
+  },
+  "author": "Gustavo Miguel",
+  "license": "ISC",
+  "description": "Gerenciador de Tarefas",
+  "devDependencies": {
+    "@types/node": "^20.14.12",
+    "tsx": "^4.16.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.2",
+    "express": "^4.19.2",
+    "prisma": "^5.19.1",
+    "save-dev": "^0.0.1-security"
+  }
+}
