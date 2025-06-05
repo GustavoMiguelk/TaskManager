@@ -9,6 +9,7 @@
   "license": "ISC",
   "description": "Gerenciador de Tarefas",
   "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
     "@types/node": "^20.14.12",
     "tsx": "^4.16.2",
     "typescript": "^5.8.3"
@@ -16,8 +17,11 @@
   "dependencies": {
     "@prisma/client": "^5.19.1",
     "@types/express": "^5.0.2",
+    "bcrypt": "^5.1.1",
     "express": "^4.19.2",
+    "express-async-errors": "^3.1.1",
     "prisma": "^5.19.1",
-    "save-dev": "^0.0.1-security"
+    "save-dev": "^0.0.1-security",
+    "zod": "^3.25.51"
   }
 }
