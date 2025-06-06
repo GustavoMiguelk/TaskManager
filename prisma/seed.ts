@@ -5,7 +5,7 @@ async function seed(){
         data: {
             name: "admin",
             email: "admin@email.com",
-            password: "admin",
+            password: "123456",
             role: "admin"
         }
     })
