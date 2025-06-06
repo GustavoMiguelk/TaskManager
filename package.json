@@ -10,6 +10,9 @@
     "build": "tsup src --out-dir build",
     "start": "node --env-file=.env build/server.js"
   },
+  "prisma":{
+    "seed": "tsx prisma/seed.ts"
+  }, 
   "author": "Gustavo Miguel",
   "license": "ISC",
   "description": "Gerenciador de Tarefas",
