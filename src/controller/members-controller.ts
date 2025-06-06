@@ -39,7 +39,7 @@ export class MembersController {
             }
         })
 
-        response.status(200).json({ message: "New member created" })
+        response.status(200).json({ member })
     }
 
     async remove(request: Request, response: Response){
