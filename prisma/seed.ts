@@ -11,7 +11,7 @@ async function seed(){
     })
 }
 
-seed().then(() => {
+seed().then( async () => {
     console.log("Database seeded!")
     await prisma.$disconnect()
 })
